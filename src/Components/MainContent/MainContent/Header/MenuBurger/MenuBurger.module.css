@@ -1,0 +1,22 @@
+.burger__container {
+  display: flex;
+  flex-direction: column;
+  gap: 6.5px;
+  cursor: pointer;
+}
+.burger__container_small_line_second {
+  width: 14px;
+  height: 1px;
+  background-color: white;
+  margin-left: 14px;
+}
+.burger__container_small_line_first {
+  width: 14px;
+  height: 1px;
+  background-color: white;
+}
+.burger__container_big_line {
+  width: 28px;
+  height: 1px;
+  background-color: white;
+}

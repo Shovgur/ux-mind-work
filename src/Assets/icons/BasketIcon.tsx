@@ -1,0 +1,51 @@
+export const BasketIcon = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="20"
+      height="20"
+      viewBox="0 0 20 20"
+    >
+      <g id="Group_3" transform="translate(-147 584.997)">
+        <path
+          id="path100"
+          d="M147-585v20h20v-20Z"
+          fill="none"
+          fill-rule="evenodd"
+        />
+        <path
+          id="path102"
+          d="M149.4-565.988c-1.1,0-1.535-.745-1.359-1.481l1.639-9.653a1.1,1.1,0,0,1,1.183-.884h12.277a1.1,1.1,0,0,1,1.183.884l1.639,9.653c.176.736-.259,1.481-1.359,1.481Z"
+          fill="none"
+          stroke="#000"
+          stroke-linejoin="round"
+          stroke-miterlimit="79.84"
+          stroke-width="1.5"
+          fill-rule="evenodd"
+        />
+        <path
+          id="path104"
+          d="M153.009-579c0-2.5,1.331-4.992,3.991-4.992"
+          fill="none"
+          stroke="#000"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-miterlimit="79.84"
+          stroke-width="1.5"
+          fill-rule="evenodd"
+        />
+        <path
+          id="path106"
+          d="M160.99-579c0-2.5-1.331-4.992-3.991-4.992"
+          fill="none"
+          stroke="#000"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-miterlimit="79.84"
+          stroke-width="1.5"
+          fill-rule="evenodd"
+        />
+      </g>
+    </svg>
+  );
+};

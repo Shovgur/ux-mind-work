@@ -1,0 +1,28 @@
+.header__container {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.header__menu_items {
+  gap: 30px;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  height: 14px;
+}
+
+.header__main_text {
+  font-size: "14px";
+  font-weight: bold;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}

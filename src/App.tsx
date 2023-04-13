@@ -1,7 +1,11 @@
 import React from "react";
+import HomePage from "./Pages/HomePage";
+import MainContent from "./Pages/MainContent/MainContent";
+import Header from "./Components/MainContent/MainContent/Header/Header/Header";
+import MenuBurger from "./Components/MainContent/MainContent/Header/MenuBurger/MenuBurger";
 
-function App() {
-  return <h1>жопа</h1>;
-}
+const App = () => {
+  return <HomePage></HomePage>;
+};
 
 export default App;
