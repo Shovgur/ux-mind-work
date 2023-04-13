@@ -1,0 +1,41 @@
+.heroswiper__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    position: absolute;
+    margin-top: 350px;
+    align-items: center;
+}
+
+.herowswiper__container_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    color: white;
+}
+
+.heroswiper__text_first{
+    text-transform: uppercase;
+    font-size: 52px;
+}
+
+.heroswiper__line{
+    width: 53px;
+    height: 1px;
+    background-color: white;
+}
+
+
+.heroswiper__text_second{
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.nextswiper__icon{
+    margin-right: 41px;
+}
+.prevswiper__icon{
+    margin-left: 41px;
+}

@@ -1,11 +1,11 @@
 import React from "react";
 import styles from "./Header.module.css";
 import Badge from "@mui/material/Badge";
-import { SearchIcon } from "../../../../../Assets/icons/SearchIcon";
-import { UserIcon } from "../../../../../Assets/icons/UserIcon";
-import { BasketIcon } from "../../../../../Assets/icons/BasketIcon";
-import { LikeIcon } from "../../../../../Assets/icons/LikeIcon";
-import { HeaderTextSvg } from "../../../../../Assets/icons/HeaderTextIcon";
+import { SearchIcon } from "../../Assets/icons/SearchIcon";
+import { UserIcon } from "../../Assets/icons/UserIcon";
+import { BasketIcon } from "../../Assets/icons/BasketIcon";
+import { LikeIcon } from "../../Assets/icons/LikeIcon";
+import { HeaderTextSvg } from "../../Assets/icons/HeaderTextIcon";
 import MenuBurger from "../MenuBurger/MenuBurger";
 
 const Header = (props: any) => {
