@@ -2,3 +2,6 @@
   width: 100vw;
   height: 3450px;
 }
+.swiper__container{
+  position: absolute;
+}

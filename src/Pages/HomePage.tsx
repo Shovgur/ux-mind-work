@@ -4,18 +4,15 @@ import styles from "./HomePage.module.css";
 import Hero from "../Assets/Image/Hero.png";
 import Header from "../Components/Header/Header";
 import HeroSwiper from "../Components/HeroSwiper/HeroSwiper";
-
-const image = {
-  width: 1600,
-  height: 720,
-};
-
+import SliderSwiper from "../Components/SliderSwiper/SliderSwiper";
 const HomePage = (props: any) => {
   return (
     <div className={styles.container}>
-      <HeroSwiper></HeroSwiper>
-      <MainContent></MainContent>
-      <img style={image} src={Hero} alt="Error"></img>
+      <MainContent>
+        <Header></Header>
+      </MainContent>
+      <HeroSwiper />
+      <SliderSwiper></SliderSwiper>
     </div>
   );
 };

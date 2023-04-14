@@ -8,7 +8,7 @@ const HeroSwiper = () => {
     <div className={styles.heroswiper__container}>
       <div className={styles.prevswiper__icon}><PrevSwiperIcon/></div>
       <div className={styles.herowswiper__container_text}> 
-        <span className={styles.heroswiper__text_first}>весна-лето</span>
+        <span className={styles.heroswiper__text_first}>весна-лето ‘23</span>
         <div className={styles.heroswiper__line}></div>
         <span className={styles.heroswiper__text_second}>новая колекция</span>
 
