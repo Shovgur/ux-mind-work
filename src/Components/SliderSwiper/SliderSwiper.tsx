@@ -1,14 +1,18 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Hero from "../../Assets/Image/Hero.png";
-
 import "swiper/css";
-
-import styles from "./SliderSwiper.module.css";
+import "swiper/css/navigation";
+import { Navigation } from "swiper";
 
 const SliderSwiper = () => {
   return (
-    <Swiper spaceBetween={50} slidesPerView={1}>
+    <Swiper
+      navigation
+      modules={[Navigation]}
+      spaceBetween={50}
+      slidesPerView={1}
+    >
       <SwiperSlide>
         <img src={Hero} alt="Error" />
       </SwiperSlide>
