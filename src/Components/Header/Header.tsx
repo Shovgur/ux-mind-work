@@ -12,21 +12,33 @@ const Header = (props: any) => {
   return (
     <div className={styles.header__container}>
       <div className={styles.header__menu_items}>
-        <MenuBurger/>
-        <span className={styles.header__main_text}>Каталог</span>
+        <button className={styles.header__buttons}>
+          {" "}
+          <MenuBurger />
+        </button>
+
+        <span className={styles.header__main_text}> Каталог</span>
         <span className={styles.header__main_text}>Новинки</span>
       </div>
       <div>
         <HeaderTextSvg />
       </div>
       <div className={styles.icons}>
-        <SearchIcon />
-        <UserIcon />
+        <button className={styles.header__buttons}>
+          <SearchIcon />
+        </button>
+        <button className={styles.header__buttons}>
+          <UserIcon />
+        </button>
         <Badge badgeContent={14} color="primary">
-          <LikeIcon />
+          <button className={styles.header__buttons}>
+            <LikeIcon />
+          </button>
         </Badge>
         <Badge badgeContent={7} color="warning">
-          <BasketIcon />
+          <button className={styles.header__buttons}>
+            <BasketIcon />
+          </button>
         </Badge>
       </div>
     </div>

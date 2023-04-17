@@ -17,10 +17,10 @@ export const LikeIcon = () => {
           transform="translate(932.591 1222.468)"
           fill="none"
           stroke="#000"
-          stroke-linejoin="round"
-          stroke-miterlimit="79.84"
-          stroke-width="1.5"
-          fill-rule="evenodd"
+          strokeLinejoin="round"
+          strokeMiterlimit="79.84"
+          strokeWidth="1.5"
+          fillRule="evenodd"
         />
         <rect
           id="Прямоугольник_16"

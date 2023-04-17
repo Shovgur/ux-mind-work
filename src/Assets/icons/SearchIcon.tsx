@@ -11,27 +11,27 @@ export const SearchIcon = () => {
           id="path81"
           d="M27-585v20H47v-20Z"
           fill="none"
-          fill-rule="evenodd"
+          fillRule="evenodd"
         />
         <path
           id="path83"
           d="M34.5-583.992a6.5,6.5,0,0,1,6.492,6.492,6.5,6.5,0,0,1-6.492,6.492,6.5,6.5,0,0,1-6.492-6.492A6.5,6.5,0,0,1,34.5-583.992Z"
           fill="none"
           stroke="#000"
-          stroke-miterlimit="79.84"
-          stroke-width="1.5"
-          fill-rule="evenodd"
+          strokeMiterlimit="79.84"
+          strokeWidth="1.5"
+          fillRule="evenodd"
         />
         <path
           id="path85"
           d="M39.239-572.76,46-566"
           fill="none"
           stroke="#000"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-miterlimit="79.84"
-          stroke-width="1.5"
-          fill-rule="evenodd"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeMiterlimit="79.84"
+          strokeWidth="1.5"
+          fillRule="evenodd"
         />
       </g>
     </svg>

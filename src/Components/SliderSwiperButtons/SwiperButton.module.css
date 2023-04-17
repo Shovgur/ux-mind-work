@@ -1,0 +1,12 @@
+.swiper__button_next{
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-right: 41px;
+}
+.swiper__button_prev{
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-left: 41px;
+}

@@ -25,5 +25,13 @@
 .icons {
   display: flex;
   flex-direction: row;
-  gap: 30px;
+  gap: 15px;
+}
+
+.header__buttons{
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+
 }

@@ -12,11 +12,12 @@ export const PrevSwiperIcon = () => {
         transform="translate(0.75 1.061)"
         fill="none"
         stroke="#fff"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-miterlimit="79.84"
-        stroke-width="1.5"
-        fill-rule="evenodd"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeMiterlimit="79.84"
+        strokeWidth="1.5"
+        fillRule="evenodd"
+
       />
     </svg>
   );
