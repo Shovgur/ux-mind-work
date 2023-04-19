@@ -8,7 +8,7 @@ import { LikeIcon } from "../../Assets/icons/LikeIcon";
 import { HeaderTextSvg } from "../../Assets/icons/HeaderTextIcon";
 import MenuBurger from "../MenuBurger/MenuBurger";
 
-const Header = (props: any) => {
+const Header = () => {
   return (
     <div className={styles.header__container}>
       <div className={styles.header__menu_items}>
