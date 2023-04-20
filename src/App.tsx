@@ -4,8 +4,8 @@ import MainContent from "./Pages/MainContent/MainContent";
 import Header from "./Components/Header/Header";
 import MenuBurger from "./Components/MenuBurger/MenuBurger";
 
-const App = () => {
-  return <HomePage></HomePage>;
-};
 
+function App() {
+  return <HomePage />;
+}
 export default App;
